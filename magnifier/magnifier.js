@@ -1,6 +1,6 @@
 /**
  * Created by cfangxu on 2017/2/22.
- * 商城商品详情页放大镜的类
+ * 商城商品详情页放大镜的插件
  * 依赖jquery >=1.7
  * @multiple 可放大的倍数，默认是2倍
  * @bgColor 暂时只能设置rgba的颜色
