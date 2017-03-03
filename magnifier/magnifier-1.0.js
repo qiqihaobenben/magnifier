@@ -39,7 +39,8 @@
             'background-color': this.options.bgColor,
             position: 'absolute',
             height: this.height/this.options.multiple + 'px',
-            width : this.width/this.options.multiple + 'px'
+            width : this.width/this.options.multiple + 'px',
+            cursor: 'move'
         }).end()
             .find('.'+this.options.bigImgName).css({
             display : 'none',
