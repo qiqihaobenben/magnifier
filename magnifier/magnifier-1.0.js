@@ -7,7 +7,7 @@
  * @bgColor 暂时只能设置rgba的颜色
  * @canShow 如果因为加载等原因想暂时禁止鼠标的移入事件，可以通过给当前元素下的img节点增加data-show的属性，
  * 当属性值为false时，移入效果终止，知道data-show属性更改为非false等其他值。也可以一开始就设置false来禁止鼠标移入效果
- * @time 设置延迟时间，避免误触发，提高用户体验
+ * @time 设置延迟时间，避免误触发，提高用户体验,单位(ms)
  */
 
 ;(function ($,window,document,undefined){
